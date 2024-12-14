@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap');
+:root {
+    --primary-color: #3B8E46;   
+    --secondary-color: #D2776A;    
+    --background-color:#ECE2DA;
+    --background-color2:#ffffff;
+    --text-color1: #ffffff;
+    --text-color2: #000000;
+    --button-color:#E0B9B4;
+    --nav-cta-color:#DC9F96;
+
+}
+html {
+    font-size: 10px; 
+}
+a, li,span {
+    font-size: 1.6rem;
+}
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+h1 {
+    font-weight: 700; 
+}
+h2{
+    font-family: Syne;
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 45.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+h3{
+    font-family: Syne;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+p {
+    font-family: Syne;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.entry-title,.post-edit-link  {
+    display:none;}
+
+/************HEADER********************/
+#header{
+    background-color:var(--background-color2);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between; 
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logo{display:inline-block;}
+
+.branding {
+    display: flex;
+    flex-direction:  row;
+}
+.menu-navigation-container ul{
+    display:flex;
+    justify-content:space-around; }
+.menu-navigation-container ul li{
+    display:inline;
+    padding : 20px;
+}
+.menu-navigation-container ul li a {
+    text-decoration: none; 
+    color: inherit;
+   
+}
+a:hover {
+    color: inherit;
+} 
+#wrapper{
+    display:inline;
+}
+.menu-item-17{  
+    color:var(--text-color1);
+    background-color: #D2776A;
+    height: 100%;
+}
+.text-menu{
+    font-weight: 600;
+}
+/****************************MAIN PAGE ************************/
+
+.boisson-energisante-100-nat{
+    padding-top: 100px;
+}
+.boisson-energisante-100-nat-ellipse{ 
+    height: 80px;
+    width:100%;
+    position:relative;
+    clip-path: ellipse(50% 35% at 50% 0%);;} 
+.les-gouts{
+    padding-bottom: 30px;
+}
+.grille-gout-gauche{ 
+    justify-self:end;
+}
+.bouteille-planty{
+        background-size: 50% !important;
+    }
+.taille-canette{
+        width:27%;
+        justify-self:center;
+}
+
+/*********************NOUS RENCONTRER*************************************/
+.spacer-equipe{
+    height: 80px;
+    width:100%;
+    position:relative;
+    clip-path: ellipse(50% 35% at 50% 0%);
+}
+.texte-nous-rencontrer{
+    width:640px;
+}
+
+.nous-rencontrer-haut{
+    background-size:15% !important;
+}
+.spacer-nous-rencontrer-haut-de-page{
+    height: 180px;
+}
+.message-form-nous-rencontrer{
+    border-radius:0.7rem !important;
+    height:23.7rem;
+    border-style:none !important;
+    resize:none;
+}
+.mail-form-nous-rencontrer{
+    border-radius:0.7rem !important;
+    height:7.1rem;
+    border-style:none !important;
+}
+.nom-form-nous-rencontrer{
+    border-radius:0.7rem !important;
+    height:7.1rem;
+    border-style:none !important;
+}
+    .conteneur-formulaire-nous-rencontrer{
+        background-size:14% !important;
+    }
+
+    .conteneur-l-equipe{
+        background-size: 15% !important;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top:100px;
+        height: 554px;
+    }
+
+/******************************PAGE COMMANDER***************************************/
+.body-page-commander{
+    padding-right:10%;
+    padding-left: 10%;
+    padding-bottom:30px;
+    color:white;
+}
+.formulaire{ 
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+.titre-commander{
+    padding-left: 0px !important ;
+    padding-right: 0px !important;}
+.commande{
+    display: flex;
+    justify-content:space-between;
+}
+.titre-commande-arome{
+    color:white !important;
+    text-align: center;
+    padding-bottom:30px;
+}
+.commande img{
+    max-width: 100%;
+}
+.commande-container{
+    display : flex;
+    flex-direction : column;
+    padding-bottom:30px;
+    padding-top: 30px;
+    border-bottom:solid 1px var(--background-color2);
+    border-top:solid 1px var(--background-color2);
+}
+.commanditaire{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.commande-arome{
+    display:flex;
+    flex-direction: column;
+    max-width: 22.3%;
+    justify-content: center;
+    align-items: center;
+}
+.mail-et-nom{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    border-right:solid 1px white;
+}
+.container-adresse{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.quantite{
+    justify-content: center;
+}
+.centrage{
+    display: flex;
+    justify-content: center;
+}
+.centrage>p{
+    display:flex;
+    justify-items: center;
+}
+.spacer{
+        height:40px;
+    }
+
+.nom, .prenom, .your-email,  .adresse, .code-postal, .ville{
+        border-radius:0.7rem !important;
+        height:7.1rem;
+        border-style:none !important;
+    }
+
+.bouton-formulaire-commander{
+    display:inline-block !important;
+    background-color: var(--button-color);
+    color:white;
+    width:200px;
+    height:55px;
+    border-radius:7px !important;
+    margin:0px !important;
+    padding:0px;
+    border-style:none;
+    justify-self: center;
+}
+
+
+    .interception{
+    display:grid !important;
+    justify-content:center !important;
+    width:auto !important; 
+    padding:0px !important;
+}
+
+
+
+
+
+/*****************FOOTER************************/
+#footer{
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#legal-mentions{ 
+    text-align: center;
+}
+
+
+/************************RESPONSIVE DESIGN***********************/
+@media (max-width: 767.98px) {
+    html{font-size: 7px;}
+    .logo_planty{
+        width:100%;
+    height: auto;
+    }
+    .menu-item-17{
+        color:var(--text-color1);
+        background-color: #D2776A;
+        height: auto;
+        border:solid 1px #D2776A
+    }
+    #logo>a{
+        display:flex;
+        align-items: center;
+    }
+    
+    .conteneur-l-equipe{
+        background-size: 0px !important;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top:0px;
+        height: 400px;
+    }
+    .image-temoignage{display:none;}
+    
+}
+@media(max-width:1200px)
+{
+    .conteneur-formulaire-nous-rencontrer{
+    background-size:0px !important;
+    }
+}
+@media (max-width: 640px) {
+    .logo_planty{
+        width:100%;
+    height: auto;
+    }
+    .menu-navigation-container ul li{
+        padding-left : 5px;
+        padding-right: 5px;
+    }
+    #logo{
+        display :flex;
+        vertical-align:text-bottom;
+    }
+
+}
+@media(max-width:420px){
+    html{font-size: 5px;}
+
+}
+/*******************Responsive design commander*********************************/
+@media (max-width: 800px) {
+    .commanditaire{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mail-et-nom{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        border-right:none;
+        border-bottom:solid 1px white;
+        padding-bottom:30px;
+    }
+
+    .container-adresse{
+        padding-top:30px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        }
+}
+@media (max-width: 400px)
+    {
+        .titre-commander{
+    padding-left: 0px !important ;
+    padding-right: 0px !important;
+    font-size: 3rem !important;
+    }
+    }
+
+    @media (max-width: 767.98px) {.texte-nous-rencontrer{max-width: 448px;
+    width:auto;}
+        }
+        
+    
