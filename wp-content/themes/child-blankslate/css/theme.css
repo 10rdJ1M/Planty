@@ -168,6 +168,7 @@ a:hover {
     }
 
 /******************************PAGE COMMANDER***************************************/
+
 .body-page-commander{
     padding-right:10%;
     padding-left: 10%;
@@ -371,6 +372,18 @@ justify-content: center;
 
     @media (max-width: 767.98px) {.texte-nous-rencontrer{max-width: 448px;
     width:auto;}
+        }
+
+        @media (max-width: 786px) {
+            .image-arome {
+                width: 100vw; /* L'image prend 100 % de la largeur de la fenêtre */
+            }
+        }
+        
+        @media (min-width: 787px) {
+            .image-arome {
+                width: 786px; /* L'image a une largeur fixe de 786px */
+            }
         }
         
     
