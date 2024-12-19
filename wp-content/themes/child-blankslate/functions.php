@@ -9,10 +9,6 @@ function theme_enqueue_styles() {
 
 }
 
-// function enqueue_custom_fonts() {
-//   wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap', false);
-// }
-// add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
 add_filter('wp_nav_menu', 'filtre_menu', 10, 2);
 add_filter( 'wpcf7_autop_or_not', function( $use_autop ) { $wpcf7 = WPCF7_ContactForm::get_current(); if ( $wpcf7->id == 75 ) { $use_autop = false; } return $use_autop; }, 10, 2 );
 
