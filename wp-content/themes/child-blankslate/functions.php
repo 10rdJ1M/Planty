@@ -14,6 +14,7 @@ function theme_enqueue_styles() {
 // }
 // add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
 add_filter('wp_nav_menu', 'filtre_menu', 10, 2);
+add_filter('wpcf7_autop_or_not', '__return_false');
 
 /**************************HOOKS************************************ */
 function filtre_menu($nav_menu, $args) {
